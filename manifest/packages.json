@@ -1,0 +1,75 @@
+{
+  "updated": "2026-11-02",
+  "note": "下载后放到 downloads/，然后运行 scripts/verify-downloads.ps1 校验。没有 sha256 的条目是官方安装器或应用商店分发，不提供镜像。",
+  "packages": [
+    {
+      "name": "DSH Go",
+      "version": "1.0.4",
+      "platform": "Android arm64",
+      "file": "dsh-go-1.0.4-arm64.apk",
+      "url": "https://github.com/jingzhedzl-netizen/dsh-go-setup/releases/download/v1.0.4/dsh-go-1.0.4-arm64.apk",
+      "upstream": "https://github.com/ccch1mneyyy/dsh-go/releases/tag/v1.0.4",
+      "size": 204959893,
+      "sha256": "077315426f0514e7b893940fd1e5e6015ceb20817d2d1adfa72abfa272758228",
+      "license": "AGPL-3.0",
+      "note": "社区项目，非官方。arm64 适用于绝大多数手机。"
+    },
+    {
+      "name": "Tailscale",
+      "version": "1.104.4",
+      "platform": "Android universal",
+      "file": "tailscale-android-1.104.4.apk",
+      "url": "https://github.com/tailscale/tailscale-android/releases/download/1.104.4-t938213198-gb9d487fe6/tailscale-android-universal-1.104.4.apk",
+      "size": 105698535,
+      "sha256": "47628cecde2de0ed03f4a69424635259023daf76fb5d9afeeddfa62761690984",
+      "license": "Proprietary",
+      "note": "只有走 SSH 路线才需要。"
+    },
+    {
+      "name": "DeepSeek Harness 桌面端",
+      "version": "latest",
+      "platform": "Windows",
+      "file": "",
+      "url": "https://www.deepseek.com/download/",
+      "size": 0,
+      "sha256": "",
+      "license": "MIT",
+      "note": "官方安装器，不镜像，去官网下。"
+    },
+    {
+      "name": "ds-harness-remote",
+      "version": "0.6.0",
+      "platform": "DSH 插件",
+      "file": "",
+      "url": "https://www.npmjs.com/package/ds-harness-remote",
+      "install": "dsh plugin --profile desktop add -w ds-harness-remote@0.6.0",
+      "size": 0,
+      "sha256": "",
+      "license": "MIT",
+      "note": "Remote 路线必装。"
+    },
+    {
+      "name": "@deepseek-ai/dsh",
+      "version": "0.2.1-rc.5",
+      "platform": "CLI",
+      "file": "",
+      "url": "https://www.npmjs.com/package/@deepseek-ai/dsh",
+      "install": "npm i -g @deepseek-ai/dsh",
+      "size": 0,
+      "sha256": "",
+      "license": "MIT",
+      "note": "可选。桌面版自带一份 CLI。"
+    },
+    {
+      "name": "Shizuku",
+      "version": "latest",
+      "platform": "Android",
+      "file": "",
+      "url": "https://github.com/RikkaApps/Shizuku/releases",
+      "size": 0,
+      "sha256": "",
+      "license": "Apache-2.0",
+      "note": "不打扰模式（虚拟屏）的通道之一。"
+    }
+  ]
+}

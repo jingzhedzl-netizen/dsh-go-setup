@@ -1,0 +1,17 @@
+# 下载的安装包不入库
+downloads/
+*.apk
+*.msi
+*.exe
+
+# 密钥、令牌
+.env
+*.token
+.gh_token
+gh_token.txt
+
+# 系统噪声
+.DS_Store
+Thumbs.db
+__pycache__/
+node_modules/

@@ -1,0 +1,16 @@
+# 许可证
+
+本仓库分两部分：
+
+- **文档**（`README.md`、`docs/` 下的 Markdown）：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh)。转载、修改、商用都行，注明来源即可。
+- **脚本**（`scripts/` 下的 PowerShell）：[MIT](https://opensource.org/licenses/MIT)。
+
+## 第三方软件
+
+仓库里不包含第三方软件本体。Releases 里的 DSH Go 安装包是镜像，版权归原作者，按 AGPL-3.0 分发，上游仓库：
+
+https://github.com/ccch1mneyyy/dsh-go
+
+Tailscale、DeepSeek Harness、Shizuku 等归各自作者，本仓库只提供下载地址，不重新分发。
+
+DSH Go 的名称、标识、Deepy 和鲸娘形象不在 AGPL 授权范围内，详见上游 `ASSETS.md`。
